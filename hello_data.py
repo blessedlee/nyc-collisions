@@ -18,4 +18,4 @@ def daily_collisions():
     return render_template('daily_collisions.html')
 
 if __name__ == '__main__':
-    app_data.run(debug=True)
+    app_data.run(port=33507, debug=False)
